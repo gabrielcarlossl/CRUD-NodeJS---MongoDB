@@ -1,4 +1,4 @@
 # RESTful API with NodeJS
 
-## technologies
+## Technologies
 - Database with MongoDB

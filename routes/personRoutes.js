@@ -66,7 +66,7 @@ router.get('/:id', async (req, res) => {
 
     res.status(200).json(person)
   } catch (error) {
-    res.status(404).json({ error: `The person's id ${req.params.id} was not found!` })
+    res.status(404).json({ error: `The person's ID = ${req.params.id} was not found!` })
   }
 })
 
